@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body{
+    background-color: beige;
+    color: black;
+}
+.logo{
+    display: inline;
+    height: 109px;
+
+}
+.titleBar{
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+    margin-left: 40%;
+    transform: translate(-50%, 0);
+    font-weight: bold;
+    width: 862px;
+    padding: 20px 10px 0px 10px;
+}
+#mainHeading{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+#belowHeading{
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.info{
+    text-align: center;
+    font-size: medium;
+    font-family: Montserrat;
+}
+
+.liveInKothagudem{
+    width: 100%;
+    font-size: x-large;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.visitStore{
+    width: 100%;
+    font-size: x-large;
+    margin-top: 5px;
+}
+.qrCodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imagesOfQR{
+    height: 19rem;
+}
+.divider{
+    width: 3px;
+    background-color: rgb(85, 84, 84);
+    /* height: 100%; */
+}
+.Names{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    padding-right: 58px;
+}
+.visitWebsite{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    width: 89%;
+    padding-right: 10px;
+}
+footer{
+    text-align: center;
+    font-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 50px;
+    padding: 2px;
+
+}
+a {
+    color: black;
+}
+  
+a:visited {
+    color: black;
+}
+  
+a:hover {
+    color: black;
+}
+  
+a:active {
+    color: black;
+}
